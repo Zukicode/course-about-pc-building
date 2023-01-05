@@ -1,0 +1,14 @@
+/*navbar*/
+
+@media screen and (max-width: 800px) {
+	#hamburger-menu {display: block;}
+
+	#navbar {
+		justify-content: space-evenly;
+	}
+
+	#nav {display: none;}
+	#button-enter-course {display: none;}
+}
+
+/*navbar*/

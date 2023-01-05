@@ -4,3 +4,75 @@ header {
 	background: url("./../../assets/img/header/bg.png") no-repeat;
 	background-size: 100%;
 }
+
+/*navbar*/
+
+#navbar {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#logo {
+	width: 40px;
+	height: 40px;
+	background: url("./../../assets/img/header/logo.png") no-repeat;
+	background-size: 100%;
+}
+
+#nav > ul {
+	display: flex;
+}
+
+#nav > ul > li {
+	list-style: none;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#nav > ul > li > a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+#button-enter-course > button {
+	background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+	border-radius: 50px;
+	border: none;
+	padding: 10px 30px;
+	color: #FFFFFF;
+	transition: all 1s ease;
+}
+
+#button-enter-course > button:hover {
+	transition: all 0.4s ease;
+	border-radius: 0px;
+	cursor: pointer;
+}
+
+#hamburger-menu {
+	display: none;
+}
+
+#hamburger-menu > button {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	border: none;
+	cursor: pointer;
+	background: url("./../../assets/img/header/hamburger-menu.png") no-repeat;
+	background-size: 100%;
+	transition: all 0.4s;
+}
+
+#hamburger-menu > button:hover {
+	transition: all 0.4s;
+	background: url("./../../assets/img/header/hamburger-hover.jpg") no-repeat;
+	background-size: 100%;
+	border-radius: 0;
+}
+
+/*navbar*/
