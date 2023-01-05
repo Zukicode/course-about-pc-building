@@ -1,13 +1,15 @@
 header {
+	max-width: 1920px;
 	width: 100%;
 	height: 100vh;
 	background: url("./../../assets/img/header/bg.png") no-repeat;
 	background-size: 100%;
+	margin: 0 auto;
 }
 
 /*navbar*/
 
-#navbar {
+.navbar {
 	width: 100%;
 	height: 100px;
 	display: flex;
@@ -15,30 +17,30 @@ header {
 	align-items: center;
 }
 
-#logo {
+.logo {
 	width: 40px;
 	height: 40px;
 	background: url("./../../assets/img/header/logo.png") no-repeat;
 	background-size: 100%;
 }
 
-#nav > ul {
+.nav > ul {
 	display: flex;
 }
 
-#nav > ul > li {
+.nav > ul > li {
 	list-style: none;
 	margin-left: 15px;
 	margin-right: 15px;
 }
 
-#nav > ul > li > a {
+.nav > ul > li > a {
 	text-decoration: none;
 	font-size: 16px;
 	color: #FFFFFF;
 }
 
-#button-enter-course > button {
+.button-enter-course > button {
 	background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
 	border-radius: 50px;
 	border: none;
@@ -47,17 +49,17 @@ header {
 	transition: all 1s ease;
 }
 
-#button-enter-course > button:hover {
+.button-enter-course > button:hover {
 	transition: all 0.4s ease;
 	border-radius: 0px;
 	cursor: pointer;
 }
 
-#hamburger-menu {
+.hamburger-menu {
 	display: none;
 }
 
-#hamburger-menu > button {
+.hamburger-menu > button {
 	width: 40px;
 	height: 40px;
 	border-radius: 100%;
@@ -68,7 +70,7 @@ header {
 	transition: all 0.4s;
 }
 
-#hamburger-menu > button:hover {
+.hamburger-menu > button:hover {
 	transition: all 0.4s;
 	background: url("./../../assets/img/header/hamburger-hover.jpg") no-repeat;
 	background-size: 100%;
@@ -76,3 +78,52 @@ header {
 }
 
 /*navbar*/
+
+/*title-header*/
+
+.title-header {
+	width: 80%;
+	height: 70%;
+	max-height: 800px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title-header-text {
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 54px;
+}
+
+.timer-course {
+	display: flex;
+}
+
+.timer-course > .timer-block {
+	padding: 20px 30px;
+	background-color: #121212;
+}
+
+.timer-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 20px;
+}
+
+.timer-block > p:first-child {
+	color: #FFFFFF;
+	font-size: 36px;
+}
+
+.timer-block > p:last-child {
+	color: #FFFFFF;
+	opacity: 0.4;
+	font-size: 14px;
+}
+
+
+/*title-header*/
