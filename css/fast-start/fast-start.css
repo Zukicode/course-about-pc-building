@@ -1,0 +1,108 @@
+.fast-start {
+	max-width: 1920px;
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.fast-start-wrapper {
+	max-width: 1920px;
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.header-fast-start {
+	width: 100%;
+	background: #000;
+	height: 100px;
+	display: flex;
+	align-items: center;
+}
+
+.logo-fast-start {
+	width: 80px;
+	height: 35px;
+	background: url("./../../assets/img/fast-start/logo.png") no-repeat;
+	background-size: 100%;
+	transform: rotate(40deg); 
+}
+
+.title-fast-start > h1 {
+	color: #ffffff;
+	font-weight: #ffffff;
+	font-size: 48px;
+	margin-left: 10px;
+}
+
+.mini-text-fast-start {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 400;
+	opacity: 0.4;
+}
+
+/*diagrama*/
+
+.diagrama-fast-start {
+	width: 100%;
+	height: 400px;
+	display: flex;
+}
+
+.diagrama-fast-start > div {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.diagrama-fast-start > div > h1 {
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.diagrama-block-100 {
+	width: 100%;
+	height: 80px;
+	background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.diagrama-block-75 {
+	width: 100%;
+	height: 60px;
+	background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	position: relative;
+	left: -1px;
+}
+
+.diagrama-block-50 {
+	width: 100%;
+	height: 30px;
+	background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+	position: relative;
+	left: -1px;
+}
+
+.diagrama-block-finish {
+	width: 100%;
+	height: 10px;
+	background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+	position: relative;
+	left: -2px;
+}
+
+.diagrama-fast-start > div > p {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	opacity: 0.4;
+	padding: 5px;
+}
+
+/*diagrama*/

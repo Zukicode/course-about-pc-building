@@ -1,0 +1,13 @@
+@media screen and (max-width: 850px) {
+	.fast-start-wrapper {
+		width: 600px;
+	}
+
+	.diagrama-fast-start > div > h1 {
+		font-size: 30px;
+	}
+
+	.diagrama-fast-start > div > p {
+		font-size: 10px;
+	}
+}
