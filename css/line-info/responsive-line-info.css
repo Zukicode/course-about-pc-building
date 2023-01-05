@@ -1,0 +1,56 @@
+@media screen and (max-width: 1100px) {
+	.info-about-pupils p:first-child {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.line-info {
+		width: 800px;
+	}
+	.line-wrapper {
+		width: 800px;
+		padding: 0px 10px 0px 10px;
+	}
+
+}
+
+@media screen and (max-width: 1130px) {
+	.button-for-buying-course > button {
+		font-size: 14px;
+		padding: 10px 20px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.button-for-buying-course > button {
+		font-size: 12px;
+		padding: 5px 10px;
+	}
+
+	.info-about-pupils > .all-pupils {
+		gap: 5px;
+	}
+	
+	.info-about-pupils > .end-pupils {
+		gap: 8px;
+	}
+
+	.info-about-pupils p:first-child {
+		font-size: 12px;
+	}
+	
+	.info-about-pupils p:last-child {
+		font-size: 12px;
+	}
+
+	.money-from-student {gap: 20px}
+
+	.money-from-student > p:last-child {
+		font-size: 14px;
+	}
+	
+	.money-from-student > p:first-child {
+		font-size: 14px;
+	}
+}

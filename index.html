@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ПК КУРСИ - ДЛЯ ТЕБЕ</title>
+	<title>Awesome PC</title>
 	<!-- favicon -->
 	<link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
 	<!-- fonts -->
@@ -15,73 +15,111 @@
 	<link rel="stylesheet" href="./css/body.css">
 	<!-- css-header -->
 	<link rel="stylesheet" href="./css/header/header.css">
-	<link rel="stylesheet" href="./css/header/responsive.css">
+	<link rel="stylesheet" href="./css/header/responsive-header.css">
+	<!-- line-info -->
+	<link rel="stylesheet" href="./css/line-info/line-info.css">
+	<link rel="stylesheet" href="./css/line-info/responsive-line-info.css">
 </head>
 <body>
-	<header>
-		<div class="navbar">
-			<div class="logo"></div>
-			
-			<div class="nav">
-				<ul>
+	<div id="container">
+		<header>
+			<div class="navbar">
+				<div class="logo"></div>
 
-					<li>
-						<a href="#">Головна</a>
-					</li>
+				<div class="nav">
+					<ul>
 
-					<li>
-						<a href="#">Курси</a>
-					</li>
+						<li>
+							<a href="#">Головна</a>
+						</li>
 
-					<li>
-						<a href="#">Розклад</a>
-					</li>
+						<li>
+							<a href="#">Курси</a>
+						</li>
 
-					<li>
-						<a href="#">Викладачі</a>
-					</li>
+						<li>
+							<a href="#">Розклад</a>
+						</li>
 
-					<li>
-						<a href="#">Розсилання</a>
-					</li>
+						<li>
+							<a href="#">Викладачі</a>
+						</li>
 
-					<li>
-						<a href="#">Контакти</a>
-					</li>
+						<li>
+							<a href="#">Розсилання</a>
+						</li>
 
-				</ul>
+						<li>
+							<a href="#">Контакти</a>
+						</li>
+
+					</ul>
+				</div>
+
+				<div class="button-enter-course">
+					<button id="enter-course">Зайти в кабінет</button>
+				</div>
+
+				<div class="hamburger-menu">
+					<button id="open-menu"></button>
+				</div>
 			</div>
 
-			<div class="button-enter-course">
-				<button id="enter-course">Зайти в кабінет</button>
+			<div class="title-header">
+				<h1 class="title-header-text">Перший Курс <br> по комп'ютерній зборці</h1><br>
+				<div class="timer-course">
+					<div class="timer-block days">
+						<p>18</p>
+						<p>Днів</p>
+					</div>
+					<div class="timer-block hours">
+						<p>18</p>
+						<p>Годин</p>
+					</div>
+					<div class="timer-block minutes">
+						<p>18</p>
+						<p>Хвилин</p>
+					</div>
+					<div class="timer-block seconds">
+						<p>18</p>
+						<p>Секунд</p>
+					</div>
+				</div>
 			</div>
+		</header>
 
-			<div class="hamburger-menu">
-				<button id="open-menu"></button>
+		<div class="line-info">
+			<div class="line-wrapper">
+				<div class="button-for-buying-course">
+					<button id="buy-course">Замовити курси</button>
+				</div>
+	
+				<div class="info-about-pupils">
+					<div class="all-pupils">
+						<p>Успішно всього:</p>
+						<p>200</p>
+					</div>
+					<div class="end-pupils">
+						<p>Закінчило курс:</p>
+						<p>190</p>
+					</div>
+				</div>
+	
+				<div class="progress-money">
+					<div class="money-from-student">
+						<p>Зароблено учнями:</p>
+						<p>400 000 ₴</p>
+					</div>
+					<div class="progress-div">
+						<progress max="100" value="40" />
+					</div>
+					<div class="from-to-money">
+						<p>0₴</p>
+						<p>1 000 000₴</p>
+					</div>
+				</div>
 			</div>
 		</div>
-
-		<div class="title-header">
-			<h1 class="title-header-text">Перший Курс <br> по комп'ютерній зборці</h1><br>
-			<div class="timer-course">
-				<div class="timer-block days">
-					<p>18</p>
-					<p>Днів</p>
-				</div>
-				<div class="timer-block hours">
-					<p>18</p>
-					<p>Годин</p>
-				</div>
-				<div class="timer-block minutes">
-					<p>18</p>
-					<p>Хвилин</p>
-				</div>
-				<div class="timer-block seconds">
-					<p>18</p>
-					<p>Секунд</p>
-				</div>
-			</div>
-		</div>
-	</header>
+	</div>
 </body>
 </html>
