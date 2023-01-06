@@ -1,0 +1,87 @@
+footer {
+	max-width: 1920px;
+	min-width: 800px;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	text-align: center;
+}
+
+.title-footer {
+	font-size: 48px;
+	color: #ffffff;
+	font-weight: 700;
+	line-height: 140%;
+}
+
+.mini-text-footer {
+	font-size: 16px;
+	color: #ffffff;
+	opacity: 0.5;
+	line-height: 160%;
+}
+
+.social-network {
+	display: flex;
+	gap: 20px;
+}
+
+.social-network > .button-social-network {
+	width: 50px;
+	height: 50px;
+	background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+
+.social-network > .button-social-network:hover {
+	transition: all 0.4s;
+	opacity: 0.8;
+}
+
+.subcribe-on-articles {
+	display: flex;
+	align-items: center;
+}
+
+.subcribe-on-articles > input {
+	width: 298px;
+	height: 44px;
+	border-radius: 50px 0px 0px 50px;
+	border: none;
+	padding: 0px 25px 0px 20px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	background: rgba(255, 255, 255, 0.1);
+	color: #dddddd;
+}
+
+.subcribe-on-articles > button {
+	width: 150px;
+	height: 45px;
+	background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+	color: #ffffff;
+	margin-left: -25px;
+	transition: all 0.4s;
+}
+
+.subcribe-on-articles > button:hover {
+	transition: all 0.4s;	
+	background: linear-gradient(180deg, #DF5950 11.19%, #451046 93.72%);
+}
