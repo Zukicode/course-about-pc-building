@@ -1,6 +1,10 @@
 @media screen and (max-width: 850px) {
+	.fast-start {
+		width: 800px;
+	}
+
 	.fast-start-wrapper {
-		width: 600px;
+		width: 800px;
 	}
 
 	.diagrama-fast-start > div > h1 {

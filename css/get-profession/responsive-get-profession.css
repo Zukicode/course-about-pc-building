@@ -1,0 +1,9 @@
+@media screen and (max-width: 900px) {
+	.get-profession {
+		height: 1500px;
+	}
+
+	.about-get-profession>.about-get-profession-wrapper {
+		flex-direction: column;
+	}
+}
