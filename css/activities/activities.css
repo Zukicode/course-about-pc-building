@@ -62,5 +62,6 @@
 .text-size-activites > p {
 	color: #ffffff;
 	font-size: 14px;
+	opacity: 0.4;
 	font-weight: 400;
 }
