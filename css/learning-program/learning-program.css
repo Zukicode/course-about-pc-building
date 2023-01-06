@@ -1,0 +1,148 @@
+.learning-program {
+	max-width: 1920px;
+	min-width: 800px;
+	width: 100%;
+	height: 1200px;
+	margin: 0 auto;
+}
+
+.title-learning-program {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+	text-align: center;
+}
+
+.title-learning-program > h1 {
+	color: #ffffff;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.title-learning-program > p {
+	color: #ffffff;
+	font-size: 16px;
+	opacity: 0.4;
+	font-weight: 400;
+}
+
+.logo-learning-program {
+	width: 80px;
+	height: 40px;
+	background: url("./../../assets/img/learning-program/logo.png") no-repeat;
+	background-size: 100%;
+}
+
+/*learning*/
+
+.learning-program-wrapper {
+	width: 90%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	margin: 0 auto;
+}
+
+.diagrama-learning-programa {
+	width: 90%;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left-column-diagrama {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 150px;
+}
+
+.center-column-diagrama {
+	width: 6px;
+	height: 800px;
+	background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.left-column-diagrama > .left-section-diagrama {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 30px;
+}
+
+.left-section-diagrama-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 10px;
+}
+
+.left-section-diagrama-text > h1 {
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 160%;
+}
+
+.left-section-diagrama-text > p {
+	font-size: 14px;
+	line-height: 140%;
+	color: #ffffff;
+	opacity: 0.4;
+}
+
+.left-line-section {
+	width: 40px;
+	height: 1px;
+	background: #505050;
+}
+
+/*right*/
+.right-column-diagrama {
+	width: 100%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	gap: 70px;
+}
+
+.right-column-diagrama > .right-section-diagrama {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 30px;
+}
+
+.right-section-diagrama-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+.right-section-diagrama-text > h1 {
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 160%;
+}
+
+.right-section-diagrama-text > p {
+	font-size: 14px;
+	line-height: 140%;
+	color: #ffffff;
+	opacity: 0.4;
+}
+
+.right-line-section {
+	width: 40px;
+	height: 1px;
+	background: #505050;
+}
