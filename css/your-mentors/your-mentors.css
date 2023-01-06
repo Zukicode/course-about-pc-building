@@ -1,0 +1,115 @@
+.your-mentors {
+	max-width: 1920px;
+	min-width: 800px;
+	width: 100%;
+	height: 700px;
+	margin: 0 auto;
+}
+
+.your-mentors-wrapper {
+	min-width: 800px;
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/*header*/
+
+.header-your-mentors {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.header-your-mentors > .header-logo-your-mentors {
+	width: 80px;
+	height: 80px;
+	background: url("./../../assets/img/your-mentors/logo.png") no-repeat;
+	background-size: 100%;
+}
+
+.header-your-mentors > .header-title-your-mentors {
+	font-size: 48px;
+	color: #ffffff;
+	font-weight: 700;
+}
+/*header*/
+
+/*mentors*/
+
+.mentors {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 150px;
+}
+
+.mentor {
+	width: 300px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.mentor > .mentor-name {
+	font-size: 21px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+.mentor > .mentor-skill {
+	font-size: 14px;
+	color: #ffffff;
+	opacity: 0.4;
+}
+
+.mentor > .biography-mentor {
+	background: none;
+	border: 2px solid #ffffff;
+	border-radius: 50px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 150%;
+	padding: 10px 20px;
+	transition: all 0.4s ease;
+}
+
+.mentor > .biography-mentor:hover {
+	transition: all 0.4s ease;
+	background-color: #ffffff;
+	color: #000000;
+	cursor: pointer;
+	font-size: 17px;
+}
+
+
+.mentor-img-oleg {
+	width: 190px;
+	height: 190px;
+	background: url("./../../assets/img/your-mentors/mentors/oleg.png") no-repeat;
+	background-size: 100%;
+}
+
+.mentor-img-sergiy {
+	width: 190px;
+	height: 190px;
+	background: url("./../../assets/img/your-mentors/mentors/sergiy.png") no-repeat;
+	background-size: 100%;
+}
+
+.mentor-img-igor {
+	width: 190px;
+	height: 190px;
+	background: url("./../../assets/img/your-mentors/mentors/igor.png") no-repeat;
+	background-size: 100%;
+}
+
+/*mentors*/
