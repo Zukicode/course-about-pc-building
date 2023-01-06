@@ -7,5 +7,5 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	background: url("./../assets/img/bg.png") no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }

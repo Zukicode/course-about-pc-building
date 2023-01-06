@@ -1,0 +1,78 @@
+.partners-brands {
+	max-width: 1920px;
+	min-width: 800px;
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.partners-brands-wrapper {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.header-brands {
+	height: 100px;
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.header-brands > .logo-header-brands {
+	width: 78px;
+	height: 78px;
+	background: url("../../assets/img/brands/logo.png") no-repeat;
+	background-size: 100%;
+}
+
+.header-brands > .logo-header-title {
+	font-size: 48px;
+	line-height: 140%;
+	font-weight: 700;
+	color: #ffffff;
+}
+.table-brands {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin-top: 100px;
+}
+
+.table-brands > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*td*/
+.td-1 {
+	border-right: 1px solid #505050;
+	border-bottom: 1px solid #505050;
+}
+
+.td-2 {
+	border-right: 1px solid #505050;
+	border-bottom: 1px solid #505050;
+}
+
+.td-3 {
+	border-right: 1px solid #505050;
+	border-bottom: 1px solid #505050;
+}
+
+.td-4 {
+	border-bottom: 1px solid #505050;
+}
+
+
+.td-5 {
+	border-right: 1px solid #505050;
+}
+
+.td-6 {
+	border-right: 1px solid #505050;
+}
+
+.td-7 {
+	border-right: 1px solid #505050;
+}

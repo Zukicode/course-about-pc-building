@@ -1,0 +1,39 @@
+@media screen and (max-width: 1000px) {
+	.table-brands {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	
+	.td-1 {
+		border-right: 1px solid #505050;
+		border-bottom: 1px solid #505050;
+	}
+	
+	.td-2 {
+		border-right: 0px;
+		border-bottom: 1px solid #505050;
+	}
+	
+	.td-3 {
+		border-right: 1px solid #505050;
+		border-bottom: 1px solid #505050;
+	}
+	
+	.td-4 {
+		border-right: 0px;
+		border-bottom: 1px solid #505050;
+	}
+	
+	.td-5 {
+		border-right: 1px solid #505050;
+		border-bottom: 1px solid #505050;
+	}
+	
+	.td-6 {
+		border-right: 0px;
+		border-bottom: 1px solid #505050;
+	}
+	
+	.td-7 {
+		border-right: 1px solid #505050;
+	}
+}

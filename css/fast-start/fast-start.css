@@ -1,7 +1,7 @@
 .fast-start {
 	max-width: 1920px;
 	width: 100%;
-	height: 600px;
+	height: 700px;
 	margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@
 
 .title-fast-start > h1 {
 	color: #ffffff;
-	font-weight: #ffffff;
+	font-weight: 700;
 	font-size: 48px;
 	margin-left: 10px;
 }
