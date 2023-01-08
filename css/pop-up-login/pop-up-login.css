@@ -1,0 +1,120 @@
+.pop-up-login {
+	width: 100%;
+	height: 100vh;
+	min-height: 500px;
+	position: fixed;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 1s;
+	transform: translate(100%) scale(0);
+}
+
+.pop-up-login > .form {
+	width: 500px;
+	height: 500px;
+	background: #ffffff;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+#close-pop-up-login {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	padding: 10px;
+	background: none;
+	border: none;
+	font-size: 24px;
+	cursor: pointer;
+	font-weight: 700;
+}
+
+.pop-up-login > .form > input {
+	width: 80%;
+	padding: 10px;
+	outline: none;
+	background: #dddddd;
+	color: #7E7575;
+	border: none;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.password {
+	width: 80%;
+	display: flex;
+}
+
+.password > input {
+	width: 90%;
+	padding: 10px;
+	outline: none;
+	background: #dddddd;
+	color: #7E7575;
+	border: none;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.show-pass-div {
+	width: 10%;
+	height: 100%;
+	background-color: teal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #dddddd;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+
+.show-pass-div:hover {
+	transition: all 0.4s;
+	opacity: 0.7;
+}
+
+.active-show-pass {
+	width: 25px;
+	height: 25px;
+	background: url("./../../assets/img/pop-up-login/show.png") no-repeat;
+	background-size: 100%;
+	display: none;
+}
+
+.show-pass {
+	width: 25px;
+	height: 25px;
+	background: url("./../../assets/img/pop-up-login/hide.png") no-repeat;
+	background-size: 100%;
+}
+
+
+.pop-up-login > .form > button:last-child {
+	padding: 10px 20px;
+	outline: none;
+	border: none;
+	background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+	color: #ffffff;
+	font-weight: 500;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: all 0.4s;
+}
+
+.pop-up-login > .form > button:last-child:hover {
+	transition: all 0.4s;
+	border-radius: 0px;
+}
+
+
+.pop-up-login.activeLogin {
+	transition: all 1s;
+	transform: translate(0%) scale(100%);
+	background-color: rgba(0, 0, 0, 0.5);
+}

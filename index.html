@@ -37,9 +37,57 @@
 	<link rel="stylesheet" href="./css/your-mentors/your-mentors.css">
 	<!-- footer -->
 	<link rel="stylesheet" href="./css/footer/footer.css">
+	<!-- pop up login -->
+	<link rel="stylesheet" href="./css/pop-up-login/pop-up-login.css">
+	<!-- pop up buy course -->
+	<link rel="stylesheet" href="./css/pop-up-buy-course/pop-up-buy-course.css">
 </head>
 
 <body>
+	<div class="pop-up-login">
+		<div class="form">
+			<button id="close-pop-up-login">X</button>
+
+			<h1>Вхід</h1><br>
+			<input type="text" placeholder="Логін" id="login"><br>
+			<div class="password">
+				<input type="password" placeholder="Пароль" id="password">
+				<div class="show-pass-div">
+					<div class="active-show-pass"></div>
+					<div class="show-pass"></div>
+				</div>
+			</div><br>
+			<button>Відправити</button>
+		</div>
+	</div>
+
+	<div class="pop-up-buy-course">
+		<div class="header-buy-course">
+			<button id="close-pop-buy-course">X</button>
+		</div><br>
+
+		<div class="courses">
+			<div class="cours">
+				<img src="./assets/img/pop-up-buy-course/first.jpg" alt="first" width="300px" height="200px">
+				<h1>Архітектура ПК</h1>
+				<p>1500₴</p>
+				<button>Купити</button>
+			</div>
+			<div class="cours">
+				<img src="./assets/img/pop-up-buy-course/second.webp" alt="second" width="300px" height="200px">
+				<h1>Структура ПК</h1>
+				<p>500₴</p>
+				<button>Купити</button>
+			</div>
+			<div class="cours">
+				<img src="./assets/img/pop-up-buy-course/third.webp" alt="third" width="300px" height="200px">
+				<h1>Структура Windows</h1>
+				<p>2500₴</p>
+				<button>Купити</button>
+			</div>
+		</div>
+	</div>
+
 	<header>
 		<div class="navbar">
 			<div class="logo"></div>
